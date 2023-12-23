@@ -47,20 +47,20 @@
 // 5-) Klavyeden girilen A ve B gibi iki sayının  bölme işlemi kullanmadan sadece toplama ve çıkarma
 // kullanarak kalanlı bölme yapan program.
 
-var a = Number(prompt("A degerini giriniz:")); // 9
-var b = Number(prompt("B degerini giriniz:")); // 4
+// var a = Number(prompt("A degerini giriniz:")); // 9
+// var b = Number(prompt("B degerini giriniz:")); // 4
 
-var kalan = a;
+// var kalan = a;
 
-var bolum = 0;
+// var bolum = 0;
 
-while(kalan>=b) {
-    kalan -= b;
-    bolum++;
-}
+// while(kalan>=b) {
+//     kalan -= b;
+//     bolum++;
+// }
 
-console.log("Kalan:",kalan);
-console.log("Bolum:",bolum);
+// console.log("Kalan:",kalan);
+// console.log("Bolum:",bolum);
 
 
 // 6-) Klavyeden girilen A ve B gibi iki sayının çarpma işlemi kullanmadan sadece toplama ve çıkarma
@@ -73,7 +73,7 @@ console.log("Bolum:",bolum);
 
 // for (var index = 1; index <= a; index++) {
    
-//    toplam += b; // b sayısının a sayısı kadar tekrar etmesi
+//    toplam += b; 
 // }
 
 // console.log(toplam);
